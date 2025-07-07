@@ -9,7 +9,7 @@ public abstract class BankAccount {
     private double balance;
     Currency currency;
     Client client;
-    List<Transaction>;
+    List<Transaction>m;
 
     abstract void deposit(double amount);
     abstract boolean withdraw(double amount);
